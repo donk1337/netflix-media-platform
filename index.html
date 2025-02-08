@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Netflix风格的媒体分享平台">
+    <title>媒体分享平台</title>
+    <style>
+        body {
+            background: #141414;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .user-profile {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            padding: 15px;
+            background: #333;
+            border-radius: 8px;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .upload-btn {
+            background: #e50914;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="user-container">
+        <div class="user-profile">
+            <img src="images/chicken.jpg" alt="小黑鸡" class="avatar">
+            <div class="user-info">
+                <h2>小黑鸡</h2>
+                <button class="upload-btn">上传媒体</button>
+            </div>
+        </div>
+        
+        <div class="user-profile">
+            <img src="images/girl.jpg" alt="阳光女孩" class="avatar">
+            <div class="user-info">
+                <h2>阳光女孩</h2>
+                <button class="upload-btn">上传媒体</button>
+            </div>
+        </div>
+        
+        <div class="user-profile">
+            <img src="images/anime.jpg" alt="动漫少年" class="avatar">
+            <div class="user-info">
+                <h2>动漫少年</h2>
+                <button class="upload-btn">上传媒体</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
